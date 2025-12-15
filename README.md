@@ -1,6 +1,7 @@
 <h1 align="center">Final Assessment WOA7015</h1>
 
 <b>Useful links:</b>
+- [Easy-VQA](https://visualqa.org/external.html)
 - [VQA-RAD](https://www.kaggle.com/datasets/shashankshekhar1205/vqa-rad-visual-question-answering-radiology)
 - [Med-VQA](https://www.med-vqa.com/)
 - [Building Generative VQA Model with CLIP](https://www.youtube.com/playlist?list=PLHYn9gDxQOphmmPsayzbdKnWdEupt8gHG)
