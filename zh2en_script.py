@@ -37,12 +37,12 @@ translated_samples = []
 for sample, q_zh2en, a_zh2en in zip(zh_samples, questions_zh2en, answers_zh2en):
     translated_samples.append({
         "img_name": sample["img_name"],
-        "queation": q_zh2en,
+        "question": q_zh2en,
         "answer": a_zh2en,
-        "source": "zh2en-trnaslated"
+        "source": "zh2en-translated"
     })
 
 with open("train_zh2en.json", "w", encoding="utf-8") as f:
     json.dump(translated_samples, f, indent=2)
 
-print("Tranlsation complete.")
+print("Translation complete.")
