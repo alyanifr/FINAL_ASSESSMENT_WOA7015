@@ -4,3 +4,8 @@ scikit-learn
 matplotlib
 torch
 torchvision
+datasets
+datasets[vision]
+shutils
+transformers
+tqdm
