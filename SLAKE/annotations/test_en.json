@@ -1,0 +1,5307 @@
+[
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung, Spinal Cord"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Lung Cancer"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Left Lung, Right"
+  },
+  {
+    "img_name": "xmlab102/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Lung Cancer"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Left Lung, Right"
+  },
+  {
+    "img_name": "xmlab103/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Lung Cancer"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab105/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Right Lung, Left"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Cardiomegaly"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab124/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "Is there any abnormality in the spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "Does the liver look normal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab13/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Pneumonia"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Left Lung, Lower Right"
+  },
+  {
+    "img_name": "xmlab130/source.jpg",
+    "question": "Does the lung look healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Cardiomegaly"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab135/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Cardiomegaly"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab142/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Atelectasis, Mass"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab147/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Cardiomegaly"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab148/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Cardiomegaly"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab152/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Nodule"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Left Lung, Right"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab159/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Nodule"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Right Lung, Left"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab160/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Atelectasis"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Right Lung, Lower Left"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab169/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Pneumonia"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Left Lung, Right"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab173/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "How many kidneys are there in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Does the liver look normal ?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Does the kidney look abnormal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab18/source.jpg",
+    "question": "Do the spleen look abnormal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "Does this image look abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Pneumothorax"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Right Lung, Left"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab185/source.jpg",
+    "question": "Which organ is abnormal, heart or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Is the liver healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "Which is bigger in this image, kidney or liver?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "What is the organ located in the lower right corner of the body in this image?",
+    "answer": "Left Kidney"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "What is the organ on the left side of this image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab208/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "4"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Top"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Is the liver healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "Which is the biggest in this image, lung,heart or liver?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "What is the rightmost organ in this image?",
+    "answer": "Left Lung"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "What is the organ on the left side of this image?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab219/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "Which is the biggest in this image, spleen,lung, or liver?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "What is the organ on the left side of this image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "What is the organ on the lower right corner of the body in this image?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab224/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Liver Cancer"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Left and top"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Which is bigger in this image, kidney or spleen?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What is the organ on the left side of this image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What is the rightmost organ in this image?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What is the organ on the top of the body in this image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab234/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Left and top"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "Which is bigger in this image, liver or spleen?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "What is the organ on the lower right corner of this image?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "What is the organ on the top of the body in this image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab235/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "How many kidneys are there in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab24/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Not seen"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab25/source.jpg",
+    "question": "What is the organ on the left side of this image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Liver Cancer"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Upper Left"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Which is bigger in this image, liver or heart?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What organ is the black part on the left of the image?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What is the organ on the top of the body in this image?",
+    "answer": "Heart and Liver"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "What are the white points in the black part of the body?",
+    "answer": "Pulmonary bronchus"
+  },
+  {
+    "img_name": "xmlab250/source.jpg",
+    "question": "Which is the kidney?",
+    "answer": "Symmetrical to the bone marrow"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Liver Cancer"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Which is bigger in this image, kidney or spleen?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "What is the shape of the kidney in the picture?",
+    "answer": "Irregular"
+  },
+  {
+    "img_name": "xmlab252/source.jpg",
+    "question": "Which is the kidney?",
+    "answer": "Symmetrical to the bone marrow"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Does this image look normal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "Where is the liver?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "What organ is the black part on the left of the image?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab253/source.jpg",
+    "question": "What are the white spots in the black part of the lower part of body?",
+    "answer": "Pulmonary bronchus"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Small Bowel"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "What is the rightmost organ in this image?",
+    "answer": "Large Bowel"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Large Bowel"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "What is the organ on the top of the body in this image?",
+    "answer": "Small Bowel"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab264/source.jpg",
+    "question": "Which is the kidney?",
+    "answer": "Symmetrical to the bone marrow"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What is the rightmost organ in this image?",
+    "answer": "Large Bowel"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What organ is the black part on the left of the image?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What is the organ on the top of the body in this image?",
+    "answer": "Stomach"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab269/source.jpg",
+    "question": "What organ is the black hole in the upper right corner?",
+    "answer": "Large Bowel"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Does the picture contain kidney?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "How many kidneys in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "Which is bigger in this image, liver or spleen?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What is the rightmost organ in this image?",
+    "answer": "Large Bowel"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What organ is the black part on the left of the image?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse  Plane"
+  },
+  {
+    "img_name": "xmlab274/source.jpg",
+    "question": "What organ is the black hole in the upper right corner?",
+    "answer": "Large Bowel"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "What type of medical image is this?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Right"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "What part of the lung is the pneumothorax located in?",
+    "answer": "Upper Right Lung"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Which organs appear in pairs?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's right lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "What color does the left lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "How many lungs are shown in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "What is the effect of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "What kind of symptoms will the disease on the upper right of lung bring to the patient?",
+    "answer": "Chest pain, dyspnea"
+  },
+  {
+    "img_name": "xmlab299/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "What imaging modality was used?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Is this a transverse plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Which part of the human body is the organ located in the image?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Lower Right Lung"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Where is the atelectasis in this image?",
+    "answer": "Lower Right Lung"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "What disease is/are shown on the right of lung?",
+    "answer": "Atelectasis"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's right lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Can atelectasis be observed on the upper right lung in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "What color does the left lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "How many existing lungs in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "What is the function of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "What is the main cause of the disease on the lower right of the lung in the picture?",
+    "answer": "Bronchial obstruction"
+  },
+  {
+    "img_name": "xmlab304/source.jpg",
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Is this a transverse plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Where is the mass in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Is this a study of the pelvic cavity?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "What disease is/are shown on the left of lung?",
+    "answer": "Pulmonary Mass"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Is the lung abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Can mass be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "What color is the lung in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "How many existing heart in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "A Little"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the lower left lobe of lung in this image?",
+    "answer": "Keep healthy"
+  },
+  {
+    "img_name": "xmlab311/source.jpg",
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "What type of medical image is this?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Where is the atelectasis in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Does the patient have any abnormalities?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Can atelectasis be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "What color does the right lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "How many lungs are shown in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "A Little"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "How to treat the disease located on the left of lung in this image?",
+    "answer": "Physical therapy, surgical treatment"
+  },
+  {
+    "img_name": "xmlab312/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Right"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Where is the pneumonia in the lung?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "What disease is/are shown on the right of lung?",
+    "answer": "Pneumonia"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Can pneumonia be observed on the right lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "What color does the right lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "How many existing lungs in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "What can the organ with black color in this image be used for?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "How to treat the disease located on the right of lung in this image?",
+    "answer": "Medical therapy, supportive therapy"
+  },
+  {
+    "img_name": "xmlab314/source.jpg",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "What modality is shown in this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Do the organs in the image exist in the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Where is the cardiomegaly in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Which organs appear in pairs?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Cardiomegaly"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Can cardiomegaly be observed on the heart in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "What color does the left lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "What is the function of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "What kind of symptoms will the disease on the heart in this image bring to the patient?",
+    "answer": "Chest tightness, arrhythmia"
+  },
+  {
+    "img_name": "xmlab320/source.jpg",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "What type of medical image is this?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Which lobe is abnormal in this image?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Where is the pulmonary infiltration in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Pulmonary Infiltration"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Can pulmonary infiltration be observed on the upper right lung in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "What color does the left lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "What is the effect of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the lower left lobe of lung in this image?",
+    "answer": "Live healthy, enhance physical fitness"
+  },
+  {
+    "img_name": "xmlab329/source.jpg",
+    "question": "Which organs/organ is part of the respiratory system in this image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "What imaging modality was used?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Where is the pulmonary nodule located in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Can nodule be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "What color does the right lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "How many lungs are shown in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "What is the function of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "How to treat the disease located on the lower left of lung in this image?",
+    "answer": "Medical treatment, surgical treatment"
+  },
+  {
+    "img_name": "xmlab338/source.jpg",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "What imaging modality was used?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Which plane is the image scanned, transverse plane or coronal plane?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Which part of the human body is the organ located in the image?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Where is/are the abnormality located in this picture?",
+    "answer": "Upper Right Lung"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Where is the nodule in this image?",
+    "answer": "Upper Right Lung"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Does the patient have any abnormalities?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Can nodule be observed on the upper right lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "What color does the right lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "How many lungs are shown in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "What is the function of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "What kind of symptoms will the disease on the upper right lung bring to the patient?",
+    "answer": "Chest tightness, fatigue"
+  },
+  {
+    "img_name": "xmlab344/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Is this an MRI scan?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Do the organs in the image exist in the chest?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Upper Left Lung"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "What part of the lung is the pneumothorax located in?",
+    "answer": "Upper Left Lung"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's left lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Can pneumothorax be observed on the lower right lung in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "What color is the lung in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "A Little"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "How to treat the disease located on the upper left of lung in this image?",
+    "answer": "Medical therapy, supportive therapy"
+  },
+  {
+    "img_name": "xmlab350/source.jpg",
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Is this a X-Ray?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "What scanning plane does this image belong to?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Do the organs in the image exist in the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Where is the pneumothorax in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Can pneumothorax be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "What color is the lung in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "How many existing heart in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "What is the effect of the center organ in this picture?",
+    "answer": "Promote blood flow"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "What is the main cause of the disease on the lower left of the lung in the picture?",
+    "answer": "Chest injury, lung disease, bullae"
+  },
+  {
+    "img_name": "xmlab357/source.jpg",
+    "question": "Which organs/organ in the picture belong to the circulatory system?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Which part of the human body is the organ located in the image?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Left Lung"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Where is/are the nodule located in this image?",
+    "answer": "Left Lung"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Is the lung abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Can nodule be observed on the lower right lung in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "What color is the lung in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "What is the function of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the left lobe of lung in this image?",
+    "answer": "Quit smoking, enhance physical fitness"
+  },
+  {
+    "img_name": "xmlab361/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "What scanning plane does this image belong to?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Where does the picture show?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Which side of lung is abnormal in this image,left or right?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "What part of the lung is the pneumonia located in?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Which organs appear in pairs?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Can pneumonia be observed on the upper right lung in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "What color does the right lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "How many lungs are shown in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "What is the effect of the center organ in this picture?",
+    "answer": "Promote blood flow"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "How to treat the disease located on the lower left of lung in this image?",
+    "answer": "Medical therapy, supportive therapy"
+  },
+  {
+    "img_name": "xmlab367/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "What type of medical image is this?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Where is the abnormality in this image?",
+    "answer": "Upper Right Lung"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "What part of the lung is the pneumonia located in?",
+    "answer": "Upper Right Lung"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Are there abnormalities in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Can pneumonia be observed on the upper right lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "What color is the lung in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "How many existing heart in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "What is the function of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the upper right lobe of lung in this image?",
+    "answer": "Pay attention to prevent cold and keep warm, enhance physical fitness"
+  },
+  {
+    "img_name": "xmlab374/source.jpg",
+    "question": "Which organs/organ is part of the respiratory system in this image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "How was this image taken?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Where does the picture show?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Which side of lung is abnormal in this image?",
+    "answer": "Right"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Where is the pneumonia in the lung?",
+    "answer": "Lower Right Lung"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "What disease is/are shown on the right of lung?",
+    "answer": "Pneumonia"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Is the lung normal appearing?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Can pneumonia be observed on the lower right lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "What color does the right lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "How many existing lungs in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "What is the effect of the center organ in this picture?",
+    "answer": "Promote blood flow"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the lower right lobe of lung in this image?",
+    "answer": "Pay attention to prevent cold and keep warm, enhance physical fitness"
+  },
+  {
+    "img_name": "xmlab375/source.jpg",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Is this image taken via CT?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Is this a transverse plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Where does the picture show?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Which side of lung is abnormal in this image?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "What part of the lung is the infiltration located in?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Which organs appear in pairs?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's left lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "What disease is/are shown on the lower left of lung?",
+    "answer": "Pulmonary Infiltration"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Can infiltration be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "What color is the lung in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "How many existing lungs in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "What can the organ with black color in this image be used for?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "What kind of symptoms will the disease on the lower left of lung bring to the patient?",
+    "answer": "Chest pain, cough, expectoration"
+  },
+  {
+    "img_name": "xmlab378/source.jpg",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Is this image taken via X-Ray?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Where does the image represent in the body?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Which part of chest is abnormal in this image?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Where is/are the effusion located?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Does the patient have any abnormalities?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Does the lung look abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Can effusion be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "What color does the left lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "How many lungs are shown in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "What can the organ with black color in this image be used for?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "What is the main cause of the disease on the lower left of the lung in the picture?",
+    "answer": "Inflammation, malignant tumor, trauma, etc"
+  },
+  {
+    "img_name": "xmlab385/source.jpg",
+    "question": "Which organs/organ is part of the circulatory system in this image?",
+    "answer": "Heart"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "X-Ray"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "What scanning plane does this image belong to?",
+    "answer": "Coronal Plane"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Do the organs in the image exist in the chest?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Where is the heart in this image?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Where is the pleural effusion?",
+    "answer": "Lower Left Lung"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Is this a study of the pelvic cavity?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Pleural Effusion"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Can effusion be observed on the lower left lung in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "What color does the left lung show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "What is the effect of the main organ in this picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "What kind of symptoms will the disease on the lower left of lung bring to the patient?",
+    "answer": "Chest tightness, dyspnea, chest pain"
+  },
+  {
+    "img_name": "xmlab386/source.jpg",
+    "question": "Which organs/organ is part of the respiratory system in this image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Which type of modality is shown about this image, MRI, CT or X-Ray?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Where is the brain stem in this image?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Which organs appear in pairs?",
+    "answer": "Temporal Lobe"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Does the temporal lobe appear in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "What color is the right temporal lobe in the picture?",
+    "answer": "Gray"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "How many ears are shown in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "Much"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Which organs/organ in the picture belong to the nervous system?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Are there some organs controlling heartbeat and breathing in this image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab401/source.jpg",
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Is this a CT?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Where does the image represent in the body?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Where is the brain stem in this image?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Does the ears exist in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "What color is the ears in the picture?",
+    "answer": "White"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "How many temporal lobes in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "What is the function of the tissue on the center of this image?",
+    "answer": "Control heartbeat and breathing"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of storing urine?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab405/source.jpg",
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "What modality is shown in this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Where is the tooth in this image?",
+    "answer": "Top"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Does the picture contain mandible?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Does the parotid appear in the image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "What color does the brain stem show in the picture?",
+    "answer": "Gray"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "How many mandibles in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "What is the function of the organ on the top of this image?",
+    "answer": "Cutting, chewing, maintaining facial contour and assisting pronunciation"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Which organs/organ in the picture belong to nervous system?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Are there organs in the picture that can digest food?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab407/source.jpg",
+    "question": "Do any of the organs in the picture belong to the circulatory system?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "What modality is shown in this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Neck"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "Is there an esophagus in this image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "Does the trachea exist in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "What is the shape of larynx in this image?",
+    "answer": "Oval"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Larynx"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "Are there organs in the picture that can deliver food?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab427/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of gas delivery?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Is this a CT?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "What scanning plane does this image belong to?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Where does the image represent in the body?",
+    "answer": "Neck"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Where is the esophagus in this image?",
+    "answer": "Under the trachea"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Neck"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Does the ears exist in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Is there small bowel in this image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "What color do the trachea show in the picture?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "What is the shape of trachea about this patient?",
+    "answer": "Irregular"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "What role does the black hollow tissue play in the human body?",
+    "answer": "Gas delivery"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Trachea"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Do any of the organs in the picture belong to the nervous system?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab428/source.jpg",
+    "question": "Does the picture contain the organ that could be used for detoxicating?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Is this an MRI scan?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Neck"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Which is trachea in this image?",
+    "answer": "Black Hollow"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Neck"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Does the picture contain spinal cord?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Are/Is there kidneys in the picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "What is the shape of trachea about this patient?",
+    "answer": "Irregular"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "What role does the black hollow tissue play in the human body?",
+    "answer": "Gas delivery"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "answer": "Esophagus"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab429/source.jpg",
+    "question": "Do any of the organs in the picture belong to the nervous system?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "Is this a CT scan?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "answer": "Right"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Brain Edema, Brain Enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab436/source.jpg",
+    "question": "What is the main cause of the disease on the right lobe of brain in this picture?",
+    "answer": "Brain embryonic tissue dysplasia, genetic factors, chemical factors"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "How was this image taken?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "Is this an MRI image with T1 weighted?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "Where does the picture show?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "Where is the brain non-enhancing tumor?",
+    "answer": "Upper Left Lobe"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "What is the color of abnormality in this image?",
+    "answer": "White"
+  },
+  {
+    "img_name": "xmlab442/source.jpg",
+    "question": "What is the main cause of the disease on the upper left lobe of brain in this picture?",
+    "answer": "Brain embryonic tissue dysplasia, genetic factors, chemical factors"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "Where does the picture show?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "Which hemisphere is abnormal,left or right?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "What disease is/are shown on the left of brain?",
+    "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "Is the tumor enhancing?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "3"
+  },
+  {
+    "img_name": "xmlab447/source.jpg",
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "answer": "Visual impairment, vomiting, tinnitus, increased intracranial pressure"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "What modality is shown in this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "Is this an MRI image with T1 weighted?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "Do the organs in the image exist in the chest?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "Where is the brain edema?",
+    "answer": "Left Lobe"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "Is the brain abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab468/source.jpg",
+    "question": "How to treat the most severe disease in this image?",
+    "answer": "Pharmacotherapy, rehabilitation"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "What modality is shown in this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Do the organs in the image exist in the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Where are the abnormalities in this image?",
+    "answer": "Upper Left Lobe"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Is there evidence of a brain edema?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "Is the abnormality hyperdense or hypodense?",
+    "answer": "Hyperdense"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab469/source.jpg",
+    "question": "How to treat the most severe disease in this image?",
+    "answer": "Pharmacotherapy, rehabilitation"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "What type of medical image is this?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "Where is the brain tumor?",
+    "answer": "Upper Left Lobe"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "Is this image normal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab471/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the upper left lobe of brain in this image?",
+    "answer": "Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "What imaging modality was used?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "Where is the brain tumor?",
+    "answer": "Upper Right Lobe"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "Is this a study of the neck?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "What disease is/are shown on the upper right of brain?",
+    "answer": "Brain Edema, Brain Non-enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "Is the abnormality hyperdense or hypodense?",
+    "answer": "Hyperdense"
+  },
+  {
+    "img_name": "xmlab473/source.jpg",
+    "question": "What kind of symptoms will the disease on the upper right lobe of brain in the picture bring to the patient?",
+    "answer": "Visual impairment, vomiting, tinnitus, increased intracranial pressure"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "How was this image taken?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "Is this a T1 weighted or T2 weighted MRI image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "Do the organs in the image exist in the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "Where is the brain tumor?",
+    "answer": "Upper Right Lobe"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "Is the brain abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab474/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the upper right lobe of brain in this image?",
+    "answer": "Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "Is this image taken via MRI?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "What scanning plane does this image belong to?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "Where does the image represent in the body?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "Which lobe is abnormal,left or right?",
+    "answer": "Right"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Brain Edema, Brain Non-enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab483/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Brain Edema"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "Does the brain look abnormal?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab49/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Lower Right"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "Is this a X-Ray?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Upper Right Lobe"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "Is/Are there abnormalities in the patient's left brain lobe?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab495/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "Is this a CT scan?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "Is this sagittal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "Do the organs in the image exist in the pelvic cavity?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "Where are the abnormalities in this image?",
+    "answer": "Left Lobe"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "Is the brain enhancing tumor hyperdense or hypodense?",
+    "answer": "Hyperdense"
+  },
+  {
+    "img_name": "xmlab498/source.jpg",
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "answer": "Visual impairment, vomiting, tinnitus, increased intracranial pressure"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "Is this image taken via CT?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "Which part of the human body is the organ located in the image?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "Where is the brain tumor located?",
+    "answer": "Lower Left Lobe"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "Is this a study of the chest?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "Does the patient have brain tumor?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab506/source.jpg",
+    "question": "What is the main cause of the disease on the left lobe of brain in this picture?",
+    "answer": "Brain embryonic tissue dysplasia, genetic factors, chemical factors"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "How was this image taken?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "What type of MRI is shown in this image?",
+    "answer": "T1"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "Where does the image represent in the body?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "Where is the brain tumor?",
+    "answer": "Left Lobe"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "What density is the brain enhancing tumor ?",
+    "answer": "Hyperdense"
+  },
+  {
+    "img_name": "xmlab508/source.jpg",
+    "question": "What kind of symptoms will the disease on the left lobe of brain in the picture bring to the patient?",
+    "answer": "Visual impairment, vomiting, tinnitus, increased intracranial pressure"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "Is this a CT?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "Is this an MRI image with T2 weighted?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Lower Left Lobe"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "What disease is/are shown on the lower left of brain?",
+    "answer": "Brain Edema, Brain Enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "What is the color of brain enhancing tumor in this image?",
+    "answer": "White"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab513/source.jpg",
+    "question": "How to prevent the occurrence of the disease on the lower left lobe of brain in this image?",
+    "answer": "Pay attention to dietary hygiene, strengthen physical fitness and avoid brain trauma"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "Is this an MRI image with T2 weighted?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "What is the scanning plane of this image?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "Do the organs in the image exist in the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "Where is the brain non-enhancing tumor?",
+    "answer": "Left Lobe"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "Is this a study of the head?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "What disease is/are shown on the left of brain?",
+    "answer": "Brain Edema, Brain Non-enhancing Tumor"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab525/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "Is this an MRI scan?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "Do the organs in the image exist in the neck?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "Where is the brain edema located?",
+    "answer": "Left Lobe"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "Is the brain normal appearing?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab529/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab53/source.jpg",
+    "question": "Does the brain look abnormal?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "Is this image taken via MRI?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "Which kind of weighting is this image generated with, t1 or t2?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "Where are the abnormalities in this image?",
+    "answer": "Lower Left Lobe"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Head"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "What disease is/are shown on the left of brain?",
+    "answer": "Brain Edema"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "How many kinds of abnormalities are there in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab532/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Which is the kidney in this image?",
+    "answer": "Symmetrical to the bottom spine"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "What organ is the gray part on the left of the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Does the stomach appear in the image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Does the picture contain spleen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "What color is the spleen in the picture?",
+    "answer": "Gray"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Which is smaller in this image,liver or right kidney?",
+    "answer": "Right Kidney"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "6"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "Much"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Which organs/organ is part of the lymphatic system in this image?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Which organs/organ is part of the urinary system in this image?",
+    "answer": "Kidney"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab538/source.jpg",
+    "question": "Do any of the organs in the picture belong to the respiratory system?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Where is the colon in this image?",
+    "answer": "Upper Right"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Does the trachea exist in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Which is smaller in this image,liver or lung?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "How many lungs have existed in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "What is the effect of the organ on the upper left of this image?",
+    "answer": "Biotransformation, detoxification"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Which organs/organ in the picture belong to the respiratory system?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab543/source.jpg",
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Does the larynx appear in the image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Does the lung exist in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Which is smaller in this image,colon or liver?",
+    "answer": "Colon"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "How many existing heart in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "What is the function of the organs appearing in pairs in the picture?",
+    "answer": "Breathe"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Which organs/organ is part of the digestive system in this image?",
+    "answer": "Stomach, Colon"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Which organs/organ in the picture belong to the urinary system?",
+    "answer": "Kidney"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of detoxicating?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab548/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of adjusting water and osmotic pressure balance?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "What organ is the gray part on the right of the image?",
+    "answer": "Small Bowel"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "Does the picture contain colon?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "Does the picture contain brain stem?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "Which is smaller in this image,kidney or small bowel?",
+    "answer": "Kidney"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "How many existing heart in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "What is the effect of the organ on the top of this image?",
+    "answer": "Absorb nutrients, secrete enzymes, digest food"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "Are there some organs controlling heartbeat and breathing in this image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab554/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of digesting food?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Which is the kidney in this image?",
+    "answer": "Symmetrical to the bottom spine"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "What organ is the black part on the upper left of the image?",
+    "answer": "Small Bowel"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Does the rectum appear in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "What color does the left kidney show in the picture?",
+    "answer": "Gray"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Which is smaller in this image, liver or right kidney?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "5"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "What is the shape of spinal cord in this image?",
+    "answer": "Circular"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "What is the effect of the organ on the top of this image?",
+    "answer": "Absorb nutrients, secrete enzymes, digest food"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Which organs/organ is part of the nervous system in this image?",
+    "answer": "Spinal cord"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of digesting food?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab557/source.jpg",
+    "question": "Does the picture contain the organ that could be used for secreting enzymes?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Where is the liver in this image?",
+    "answer": "Left"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Does the picture contain colon?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Does the humerus head exist in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "What color does the duodenum show in the picture?",
+    "answer": "Gray"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Which is smaller in this image, spleen or kidney?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "How many lungs have existed in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "What is the shape of spleen in the picture?",
+    "answer": "Oval"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "What is the function of the organ on the center of this image?",
+    "answer": "Absorb nutrients, secrete enzymes, digest food"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Which organs/organ is part of the nervous system in this image?",
+    "answer": "Spinal cord"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Are there organs in the picture that can adjust water and osmotic pressure balance?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab561/source.jpg",
+    "question": "Are there any organs used for breathing in this image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Is this a transverse section?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Where is the stomach in this image?",
+    "answer": "Upper Right"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Which organ system is imaged?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Does the picture contain eyes?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Is there femoral head in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Which is bigger in this image,liver or stomach?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "How many kidneys have existed in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "What is the shape of spinal cord in this image?",
+    "answer": "Circular"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "What is the function of the rightmost organ in this picture?",
+    "answer": "Improve the body's immunity"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Which organs/organ in the picture belong to the lymphatic system?",
+    "answer": "Spleen"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Does the picture contain the organ that could receive sound?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab573/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of gas delivery?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "Where is the esophagus in this image?",
+    "answer": "Center"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "Does the esophagus exist in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "Does the stomach appear in the image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "What color is the spleen in this image?",
+    "answer": "Gray"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "Which is the biggest in this image, spleen, heart or liver?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "How many existing heart in this image?",
+    "answer": "1"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "Much"
+  },
+  {
+    "img_name": "xmlab578/source.jpg",
+    "question": "Are there organs in the picture that can digest food?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "Brain Tumor, Brain Edema"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab58/source.jpg",
+    "question": "Where is/are the abnormality located?",
+    "answer": "Lower Left"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Abdomen"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Where is the heart in this image,left,top or upper left?",
+    "answer": "Top"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Is this a study of the abdomen?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Does the picture contain stomach?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Which is smaller in this image, esophagus or liver?",
+    "answer": "Esophagus"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "How many lungs have existed in this image?",
+    "answer": "2"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "How much damage will be caused to the body taking such an image?",
+    "answer": "Much"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "answer": "Esophagus"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of gas delivery?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab580/source.jpg",
+    "question": "Does the picture contain the organ that could promote blood flow?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "In what plane is this image scanned?",
+    "answer": "Transverse Plane"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "What is the leftmost organ in this image?",
+    "answer": "Right Lung"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "Does the picture contain spinal cord?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "Does the rectum appear in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "What color is the lung in this image?",
+    "answer": "Black"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "Which is smaller in this image,heart or esophagus?",
+    "answer": "Esophagus"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "How many organs are there in this image?",
+    "answer": "4"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "What is the function of the organ on the top of this image?",
+    "answer": "Promote blood flow"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "Does the picture contain the organ that could receive sound?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab586/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of sensing light?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Where does the image represent in the body?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Where is the rectum existing in this image?",
+    "answer": "Bottom"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Does the parotid appear in the image?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Which is smaller in this image, bladder or rectum?",
+    "answer": "Rectum"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "How many femoral heads are shown in this image?",
+    "answer": "0"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "What is the function of the organ on the bottom of this picture?",
+    "answer": "Store feces, excrete feces"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Which organs/organ in the picture belong to the digestive system?",
+    "answer": "Rectum"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of discharging waste?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab604/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of excreting feces?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Is this a coronal section?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Which part do the organs in this image locate from the aspect of the whole body?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Where is rectum in this image?",
+    "answer": "Bottom"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "What is the organ system visualized?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Does the picture contain rectum?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Does the picture contain bladder?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Bladder"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "What is the effect of the gray organ on the center of this picture?",
+    "answer": "Store urine"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Which organs/organ is part of the digestive system in this image?",
+    "answer": "Rectum"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of excreting feces?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab605/source.jpg",
+    "question": "Does the picture contain the organ which has the effect of detoxicating?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab622/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab622/source.jpg",
+    "question": "Is this a study of the pelvic cavity?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab622/source.jpg",
+    "question": "Does the picture contain colon?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab622/source.jpg",
+    "question": "Which organs/organ in the picture belong to the urinary system?",
+    "answer": "Bladder"
+  },
+  {
+    "img_name": "xmlab622/source.jpg",
+    "question": "Are there organs in the picture that can deliver food?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab628/source.jpg",
+    "question": "How was this image taken?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab628/source.jpg",
+    "question": "Where does the picture show?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab628/source.jpg",
+    "question": "Does the rectum exist in this picture?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab628/source.jpg",
+    "question": "Which is bigger in this image, small bowel or colon?",
+    "answer": "Small Bowel"
+  },
+  {
+    "img_name": "xmlab628/source.jpg",
+    "question": "What is the function of the organ on the bottom of this image?",
+    "answer": "Digest food, absorb water, excrete body waste"
+  },
+  {
+    "img_name": "xmlab628/source.jpg",
+    "question": "Do any of the organs in the picture belong to the urinary system?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab629/source.jpg",
+    "question": "What organ system is pictured?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab629/source.jpg",
+    "question": "Is there colon in the image?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab629/source.jpg",
+    "question": "Which is smaller in this image, colon or small bowel?",
+    "answer": "Colon"
+  },
+  {
+    "img_name": "xmlab629/source.jpg",
+    "question": "What is the function of the organ on the top of this image?",
+    "answer": "Absorb nutrients, secrete enzymes, digest food"
+  },
+  {
+    "img_name": "xmlab629/source.jpg",
+    "question": "Do any of the organs in the picture belong to the digestive system?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "Is this a coronal plane?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "Which part of the human body is the organ located in the image?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "Where is colon in this image?",
+    "answer": "Upper Left"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "What organ system is primarily present in this image?",
+    "answer": "Pelvic Cavity"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "Is there spinal cord in this picture?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "What is the effect of the organ on the left of this picture?",
+    "answer": "Digest food, absorb water, excrete body waste"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "Which organs/organ is part of the digestive system in this image?",
+    "answer": "Colon, Small Bowel"
+  },
+  {
+    "img_name": "xmlab634/source.jpg",
+    "question": "Are there organs in the picture that can promote blood flow?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab71/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "MRI"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "What is the mr weighting in this image?",
+    "answer": "T2"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Brain"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "Does the picture contain brian?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab77/source.jpg",
+    "question": "Is the brain healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "What diseases are included in the picture?",
+    "answer": "None"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab82/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "Does the lung look healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab85/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Liver"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Lung, Heart"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "What is the largest organ in the picture?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "Is the lung healthy?",
+    "answer": "Yes"
+  },
+  {
+    "img_name": "xmlab90/source.jpg",
+    "question": "Which is the biggest in this image,lung,liver or heart?",
+    "answer": "Lung"
+  },
+  {
+    "img_name": "xmlab93/source.jpg",
+    "question": "What modality is used to take this image?",
+    "answer": "CT"
+  },
+  {
+    "img_name": "xmlab93/source.jpg",
+    "question": "Which part of the body does this image belong to?",
+    "answer": "Chest"
+  },
+  {
+    "img_name": "xmlab93/source.jpg",
+    "question": "What is the main organ in the image?",
+    "answer": "Spinal Cord"
+  },
+  {
+    "img_name": "xmlab93/source.jpg",
+    "question": "Does the picture contain liver?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab93/source.jpg",
+    "question": "Does the picture contain lung?",
+    "answer": "No"
+  },
+  {
+    "img_name": "xmlab93/source.jpg",
+    "question": "Does the picture contain heart?",
+    "answer": "No"
+  }
+]
