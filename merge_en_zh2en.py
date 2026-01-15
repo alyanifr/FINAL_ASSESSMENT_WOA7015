@@ -48,7 +48,7 @@ def check_duplicates(samples):
 
     for sample in samples:
         data = (
-            sample["img_name"], sample["question"], sample["queation"].lower().strip()
+            sample["img_name"], sample["question"].lower().strip()
         )
 
         if data not in seen:
