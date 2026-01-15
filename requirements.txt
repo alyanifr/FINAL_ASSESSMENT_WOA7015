@@ -7,3 +7,5 @@ torchvision
 datasets
 datasets[vision]
 shutils
+transformers
+tqdm
