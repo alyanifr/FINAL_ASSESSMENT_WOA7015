@@ -1,5 +1,6 @@
 import os
 import json
+import string
 
 # CONFIG
 DATA_ROOT = "SLAKE/annotations"
@@ -20,12 +21,16 @@ print(f"ZH2EN Train: {len(zh2en_file)} samples.")
 
 # ANSWER NORMALIZATION
 def normalize_answer(ans):
+    translator = str.maketrans("", "", string.punctuation)
+
+    ans = ans.translate(translator)
+    ans = ans.replace("pad", "")
     ans = ans.lower().strip()
 
-    if ans in ["yes", "y", "true"]:
+    if ans in ["yes", "yess", "y", "true"]:
         return "yes"
     
-    if ans in ["no", "n", "False"]:
+    if ans in ["no", "no its nots", "n", "False"]:
         return "no"
     
     if ans in ["none", "na", "n/a"]:
@@ -47,6 +52,7 @@ def check_duplicates(samples):
     unique_samples = []
 
     for sample in samples:
+        sample["question"] = sample["question"].replace("<pad>", "")
         data = (
             sample["img_name"], sample["question"].lower().strip()
         )
