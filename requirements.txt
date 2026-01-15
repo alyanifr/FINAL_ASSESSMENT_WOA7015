@@ -9,3 +9,4 @@ datasets[vision]
 shutils
 transformers
 tqdm
+sentencepiece
