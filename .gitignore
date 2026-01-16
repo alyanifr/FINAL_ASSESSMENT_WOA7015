@@ -4,3 +4,6 @@ outputs/checkpoints/
 # Large files
 outputs/checkpoints/
 outputs/models/
+
+# Large artifacts
+outputs/results.zip
