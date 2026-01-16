@@ -94,5 +94,6 @@ class VisualBERTSlakeDataset(Dataset):
             "image": image,
             "input_ids": encode["input_ids"].squeeze(0),
             "attention_mask": encode["attention_mask"].squeeze(0),
-            "answer": sample["answer"]
+            "answer": sample["answer"],
+            "question": sample["question"]
         }
