@@ -90,7 +90,9 @@ def main():
 
     visual_extractor = VisualFeatureExtract().to(device)
 
-    optimizer = torch.optim.AdamW(model.parameters(), lr=0.00001)
+    optimizer = torch.optim.AdamW(model.parameters(), 
+                                  lr=0.000005,
+                                  weight_decay=1e-4)
 
     criterion = nn.CrossEntropyLoss()
 
