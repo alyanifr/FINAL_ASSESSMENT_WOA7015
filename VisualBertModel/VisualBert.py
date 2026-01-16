@@ -36,7 +36,7 @@ class VisualFeatureExtract(nn.Module):
 # EARLY STOPPING PIPELINE + CHECKPOINT
 class EarlyStopping:
     def __init__(self,
-                patience=3,
+                patience=5,
                 min_delta=0.0,
                 checkpoint_path="outputs/checkpoints/best_model.pt",
                 verbose=True):
