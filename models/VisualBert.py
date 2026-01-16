@@ -6,6 +6,7 @@ import torch.nn as nn
 import torchvision
 from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, VisualBertForQuestionAnswering
+import utils
 from utils.slake_datasets import VisualBERTSlakeDataset
 from PIL import Image
 
