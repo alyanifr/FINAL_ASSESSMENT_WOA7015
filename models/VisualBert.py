@@ -1,6 +1,10 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath("."))
+
 import os
 import json
-import requests
 import torch
 import torch.nn as nn
 import torchvision
@@ -8,8 +12,6 @@ from torch.utils.data import DataLoader
 from transformers import AutoTokenizer, VisualBertForQuestionAnswering
 from utils.slake_datasets import VisualBERTSlakeDataset
 from PIL import Image
-
-device = "cuda" if torch.cuda.is_available() else "cpu"
 
 class VisualFeatureExtract(nn.Module):
 
@@ -24,84 +26,23 @@ class VisualFeatureExtract(nn.Module):
 
     def forward(self, images):
         with torch.no_grad():
-            features = self.backbone(images)
-        features = features.squeeze(-1).squeeze(-1)
+            features = self.backbone(images)            # [B, 2048, 1, 1]
+        features = features.squeeze(-1).squeeze(-1)     # [B, 2048]
 
         return features
     
-def get_visual_embeddings_simple(image, extractor, visual_seq_length=10, device=None):
+# TRAINING PIPELINE
+def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, answer_to_idx, device):
 
-    if isinstance(image, str):
-        image = Image.open(image).convert('RGB')
-    elif isinstance(image, Image.Image):
-        image = image.convert('RGB')
-    else:
-        raise ValueError("Image must be a PIL Image or path to image file")
-    
-    image_tensor = transform(image).unsqueeze(0).to(device)
-    
-    with torch.no_grad():
-        features = extractor(image_tensor)
-    
-    batch_size = features.shape[0]
-    feature_dim = features.shape[1]
-    visual_seq_length = 10
-    
-    visual_embeds = features.squeeze(-1).squeeze(-1).unsqueeze(1).expand(batch_size, visual_seq_length, feature_dim)
-    
-    return visual_embeds
+    model.train()
 
-transform = torchvision.transforms.Compose([
-        torchvision.transforms.Resize(256),
-        torchvision.transforms.CenterCrop(224),
-        torchvision.transforms.ToTensor(),
-        torchvision.transforms.Normalize(
-            mean=[0.485, 0.456, 0.406],
-            std=[0.229, 0.224, 0.225]
-        )
-    ])
-
-tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
-
-train_data = VisualBERTSlakeDataset(
-    annotations_path="data/SLAKE/annotations/train_en.json",
-    image_root="data/SLAKE/imgs",
-    tokenizer=tokenizer,
-    transform=transform
-)
-
-train_loader = DataLoader(
-    train_data,
-    batch_size=16,
-    shuffle=True,
-    num_workers=2
-)
-
-### Answer vocab
-answers = sorted({sample["answer"] for sample in train_data.samples})
-answer_to_idx = {ans: i for i, ans in enumerate(answers)}
-idx_to_answer = {i: ans for ans, i in answer_to_idx.items()}
-
-### Training pipeline
-model = VisualBertForQuestionAnswering.from_pretrained("uclanlp/visualbert-vqa-coco-pre", num_labels=len(answer_to_idx))
-model.to(device)
-
-visual_feature_extractor = VisualFeatureExtract().to(device)
-
-optimizer = torch.optim.AdamW(model.parameters(), lr=0.001)
-
-criterion = nn.CrossEntropyLoss()
-
-### Variables for plotting
-epochs = 3
-model.train()
-
-for epoch in range(epochs):
     total_loss = 0
     total_training = 0
     training_error = 0
 
-    for batch in train_loader:
+    visual_sequence_length = 10
+
+    for batch in loader:
         images = batch["image"].to(device)
         input_ids = batch["input_ids"].to(device)
         attention_mask = batch["attention_mask"].to(device)
@@ -112,21 +53,30 @@ for epoch in range(epochs):
             device=device
         )
 
-        visual_embeds = get_visual_embeddings_simple(images, visual_feature_extractor, device=device)
-        visual_token_type_ids = torch.ones(visual_embeds.shape[:-1], dtype=torch.long, device=device)
-        visual_attention_mask = torch.ones(visual_embeds.shape[:-1], dtype=torch.float, device=device)
+        # VISUAL EMBEDDINGS
+        visual_features = visual_features_extractor(images)
+        visual_embeds = visual_features.unsqueeze(1).expand(
+            visual_features.size(0), visual_sequence_length, visual_features.size(1)
+        )
+
+        visual_token_type_ids = torch.ones(
+            visual_embeds.shape[:-1], dtype=torch.long, device=device
+        )
+
+        visual_attention_mask = torch.ones(
+            visual_embeds.shape[:-1], dtype=torch.float, device=device
+        )
 
         outputs = model(
             input_ids=input_ids,
             attention_mask=attention_mask,
             visual_embeds=visual_embeds,
             visual_attention_mask=visual_attention_mask,
-            visual_token_type_ids=visual_token_type_ids,
-            labels=labels
+            visual_token_type_ids=visual_token_type_ids
         )
 
-        loss = outputs.loss
         logits = outputs.logits
+        loss = nn.CrossEntropyLoss()(logits, labels)
 
         optimizer.zero_grad()
         loss.backward()
@@ -138,12 +88,187 @@ for epoch in range(epochs):
         training_error += (preds != labels).sum().item()
         total_training += labels.size(0)
 
-    avg_training_loss = round(total_loss / len(train_loader), 4)
-    training_accuracy = round(100 * (1 - training_error / total_training), 2)
-
-    print(f"Epoch [{epoch+1}/{epochs}] | Training Loss: {avg_training_loss:.4f} | Training Accuracy: {training_accuracy:.2f}%")
+    return  total_loss / len(loader), 100 * (1 - training_error / total_training)
 
 
+# EVALUATION PIPELINE
+@torch.no_grad()
+def evaluate(model, visual_features_extractor, loader, answer_to_idx, device):
+    
+    model.eval()
+
+    total_loss = 0
+    total_eval = 0
+    eval_error = 0
+
+    visual_sequence_length = 10
+
+    for batch in loader:
+        images = batch["image"].to(device)
+        input_ids = batch["input_ids"].to(device)
+        attention_mask = batch["attention_mask"].to(device)
+
+        labels = torch.tensor(
+            [answer_to_idx[ans] for ans in batch["answer"]],
+            dtype=torch.long,
+            device=device
+        )
+
+        # VISUAL EMBEDDINGS
+        visual_features = visual_features_extractor(images)
+        visual_embeds = visual_features.unsqueeze(1).expand(
+            visual_features.size(0), visual_sequence_length, visual_features.size(1)
+        )
+
+        visual_token_type_ids = torch.ones(
+            visual_embeds.shape[:-1], dtype=torch.long, device=device
+        )
+
+        visual_attention_mask = torch.ones(
+            visual_embeds.shape[:-1], dtype=torch.float, device=device
+        )
+
+        outputs = model(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            visual_embeds=visual_embeds,
+            visual_attention_mask=visual_attention_mask,
+            visual_token_type_ids=visual_token_type_ids,
+        )
+
+        logits = outputs.logits
+        loss = nn.CrossEntropyLoss()(logits, labels)
+
+        total_loss += loss.item()
+
+        preds = torch.argmax(logits, dim=1)
+        eval_error += (preds != labels).sum().item()
+        total_eval += labels.size(0)
+
+    return  total_eval / len(loader), 100 * (1 - eval_error / total_eval)
+
+# MAIN
+def main():
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+
+    transform = torchvision.transforms.Compose([
+        torchvision.transforms.Resize(256),
+        torchvision.transforms.CenterCrop(224),
+        torchvision.transforms.ToTensor(),
+        torchvision.transforms.Normalize(
+            mean=[0.485, 0.456, 0.406],
+            std=[0.229, 0.224, 0.225]
+        )
+    ])
+
+    tokenizer = AutoTokenizer.from_pretrained("google-bert/bert-base-uncased")
+
+    # --- DATASET ---
+    train_data = VisualBERTSlakeDataset(
+        annotations_path="data/SLAKE/annotations/train_en.json",
+        image_root="data/SLAKE/imgs",
+        tokenizer=tokenizer,
+        transform=transform
+    )
+
+    validation_data = VisualBERTSlakeDataset(
+        annotations_path="data/SLAKE/annotations/validation_en.json",
+        image_root="data/SLAKE/imgs",
+        tokenizer=tokenizer,
+        transform=transform
+    )
+
+    test_data = VisualBERTSlakeDataset(
+        annotations_path="data/SLAKE/annotations/test_en.json",
+        image_root="data/SLAKE/imgs",
+        tokenizer=tokenizer,
+        transform=transform
+    )
+
+    # --- DATALOADERS ---
+    train_loader = DataLoader(
+        train_data,
+        batch_size=16,
+        shuffle=True,
+    )
+
+    validation_loader = DataLoader(
+        validation_data,
+        batch_size=16,
+        shuffle=True,
+    )
+
+    test_loader = DataLoader(
+        test_data,
+        batch_size=16,
+        shuffle=True,
+    )
+
+    # --- ANSWER VOCAB ---
+    answers = sorted({sample["answer"] for sample in train_data.samples})
+    answer_to_idx = {ans: i for i, ans in enumerate(answers)}
+    # idx_to_answer = {i: ans for ans, i in answer_to_idx.items()}
+
+    # --- MODELS ---
+    model = VisualBertForQuestionAnswering.from_pretrained(
+        "uclanlp/visualbert-vqa-coco-pre",
+        num_labels=len(answer_to_idx)
+    )
+
+    model.to(device)
+
+    visual_extractor = VisualFeatureExtract().to(device)
+
+    optimizer = torch.optim.AdamW(model.parameters(), lr=0.001)
+
+    # --- TRAINING ---
+    epochs = 3
+
+    for epoch in range(epochs):
+        train_loss, train_accuracy = train_for_one_epoch(
+            model=model,
+            visual_features_extractor=visual_extractor,
+            loader=train_loader,
+            optimizer=optimizer,
+            answer_to_idx=answer_to_idx,
+            device=device
+        )
+
+        validation_loss, validation_accuracy = evaluate(
+            model=model,
+            visual_features_extractor=visual_extractor,
+            loader=validation_loader,
+            answer_to_idx=answer_to_idx,
+            device=device
+        )
+
+        print(
+            f"Epoch [{epoch+1}/{epochs}] | "
+            f"Training Loss: {train_loss:.4f} | "
+            f"Training Accuracy: {train_accuracy:.2f}% | "
+            f"Validation Loss: {validation_loss:.4f} | "
+            f"Validation Accuracy: {validation_accuracy:.2f}%"
+        )
+    
+    # --- TESTING ---
+    test_loss, test_accuracy = evaluate(
+        model=model,
+        visual_features_extractor=visual_extractor,
+        loader=test_loader,
+        answer_to_idx=answer_to_idx,
+        device=device
+    )
+
+    print(f"Test Loss: {test_loss:.4f} | Test Accuracy: {test_accuracy:.2f}%")
+
+
+
+
+if __name__ == "__main__":
+    main()
+
+
+    
 
 """
 Example: 
