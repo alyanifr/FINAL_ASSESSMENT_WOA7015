@@ -1,4 +1,12 @@
 <h1 align="center">Final Assessment WOA7015</h1>
+<h3 align="center">Group 15</h3>
+<h4 align="center">Members: Nur Alyani Nadhiya Binti Fakharulrazi | Nur'Izzah Binti Fauzan</h4>
+
+
+
+
+
+
 
 <b>Useful links:</b>
 - [Easy-VQA](https://visualqa.org/external.html)
