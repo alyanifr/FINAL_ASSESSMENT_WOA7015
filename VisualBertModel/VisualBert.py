@@ -222,7 +222,7 @@ def evaluate_open_ended(model, visual_features_extractor, loader, idx_to_answer,
     model.eval()
     visual_sequence_length = 10
 
-    # examples = []
+    collected = 0
 
     print("\n===== GROUND TRUTH EVALUATION =====\n")
 
@@ -397,12 +397,12 @@ def main():
 
     visual_extractor = VisualFeatureExtract().to(device)
 
-    optimizer = torch.optim.AdamW(model.parameters(), lr=0.00001)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=5e-5)
 
     criterion = nn.CrossEntropyLoss()
 
     # --- EARLY STOPPING ---
-    early_stopping = EarlyStopping(patience=3, checkpoint_path="outputs/checkpoints/visualbert_best.pt")
+    early_stopping = EarlyStopping(patience=5, checkpoint_path="outputs/checkpoints/visualbert_best.pt")
 
     # --- TRAINING ---
     epochs = 10
