@@ -312,12 +312,12 @@ def evaluate_failures_with_images(model, visual_features_extractor, loader, idx_
                 plt.figure(figsize=(4,4))
                 plt.imshow(img)
                 plt.axis("off")
-                plt.title(f"Q: {question}\nGround Truth: {ground_truth}\nPred: {pred_ans}", fontsize=8)
+                plt.title(f"Question: {question}\nGround Truth: {ground_truth}\nPred: {pred_ans}", fontsize=8)
                 filename = f"failure_{failures+1}.png"
                 plt.savefig(os.path.join(save_dirs, filename), dpi=300)
                 plt.close
 
-                print(f"[FAILURE {failures+1}] Q: {question} | GT: {gt} | Pred: {pred_ans}")
+                print(f"[FAILURE {failures+1}] Question: {question} | Ground Truth: {ground_truth} | Pred: {pred_ans}")
                 failures += 1
                 if failures >= max_failures:
                     return
