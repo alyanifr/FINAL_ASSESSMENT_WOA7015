@@ -17,8 +17,10 @@ class VisualFeatureExtract(nn.Module):
 
     def __init__(self):
         super().__init__()
-        resnet = torchvision.models.resnet50(pretrained=True)
-        self.backbone = nn.Sequential(*list(resnet.children())[:-1])
+        backbone = torchvision.models.resnet50(
+            weights=torchvision.models.ResNet50_Weights.DEFAULT
+        )
+        self.backbone = nn.Sequential(*list(backbone.children())[:-1])
         self.backbone.eval()
 
         for param in self.backbone.parameters():
@@ -32,7 +34,7 @@ class VisualFeatureExtract(nn.Module):
         return features
     
 # TRAINING PIPELINE
-def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, answer_to_idx, device):
+def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, criterion, answer_to_idx, device):
 
     model.train()
 
@@ -48,7 +50,7 @@ def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, ans
         attention_mask = batch["attention_mask"].to(device)
 
         labels = torch.tensor(
-            [answer_to_idx[ans] for ans in batch["answer"]],
+            [answer_to_idx.get(ans, answer_to_idx["UNK"]) for ans in batch["answer"]],
             dtype=torch.long,
             device=device
         )
@@ -76,7 +78,7 @@ def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, ans
         )
 
         logits = outputs.logits
-        loss = nn.CrossEntropyLoss()(logits, labels)
+        loss = criterion(logits, labels)
 
         optimizer.zero_grad()
         loss.backward()
@@ -93,7 +95,7 @@ def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, ans
 
 # EVALUATION PIPELINE
 @torch.no_grad()
-def evaluate(model, visual_features_extractor, loader, answer_to_idx, device):
+def evaluate_excluding_unk(model, visual_features_extractor, loader, criterion, answer_to_idx, device):
     
     model.eval()
 
@@ -102,17 +104,23 @@ def evaluate(model, visual_features_extractor, loader, answer_to_idx, device):
     eval_error = 0
 
     visual_sequence_length = 10
+    unk_idx = answer_to_idx["UNK"]
 
     for batch in loader:
         images = batch["image"].to(device)
         input_ids = batch["input_ids"].to(device)
         attention_mask = batch["attention_mask"].to(device)
 
-        labels = torch.tensor(
-            [answer_to_idx[ans] for ans in batch["answer"]],
-            dtype=torch.long,
-            device=device
-        )
+        # Map unseen answers to "UNK"
+        labels = [
+            answer_to_idx.get(ans, unk_idx) for ans in batch["answer"]
+        ]
+        labels = torch.tensor(labels, dtype=torch.long, device=device)
+
+        # Skip samples with UNK labels
+        mask = labels != unk_idx
+        if mask.sum() == 0:
+            continue
 
         # VISUAL EMBEDDINGS
         visual_features = visual_features_extractor(images)
@@ -137,15 +145,62 @@ def evaluate(model, visual_features_extractor, loader, answer_to_idx, device):
         )
 
         logits = outputs.logits
-        loss = nn.CrossEntropyLoss()(logits, labels)
+        loss = criterion(logits[mask], labels[mask])
 
         total_loss += loss.item()
 
         preds = torch.argmax(logits, dim=1)
-        eval_error += (preds != labels).sum().item()
-        total_eval += labels.size(0)
+        eval_error += (preds[mask] != labels[mask]).sum().item()
+        total_eval += mask.sum().item()
 
     return  total_eval / len(loader), 100 * (1 - eval_error / total_eval)
+
+@torch.no_grad()
+def evaluate_open_ended(model, visual_features_extractor, loader, idx_to_answer, device, num_examples=10):
+    model.eval()
+    visual_sequence_length = 10
+
+    # examples = []
+
+    print("\n===== GROUND TRUTH EVALUATION =====\n")
+
+    for batch in loader:
+        images = batch["image"].to(device)
+        input_ids = batch["input_ids"].to(device)
+        attention_mask = batch["attention_mask"].to(device)
+
+        # VISUAL EMBEDDINGS
+        visual_features = visual_features_extractor(images)
+        visual_embeds = visual_features.unsqueeze(1).expand(
+            visual_features.size(0), visual_sequence_length, visual_features.size(1)
+        )
+        visual_attention_mask = torch.ones(
+            visual_embeds.shape[:-1], dtype=torch.float, device=device
+        )
+        visual_token_type_ids = torch.ones(
+            visual_embeds.shape[:-1], dtype=torch.long, device=device
+        )
+
+        outputs = model(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            visual_embeds=visual_embeds,
+            visual_attention_mask=visual_attention_mask,
+            visual_token_type_ids=visual_token_type_ids
+        )
+
+        preds = outputs.logits.argmax(dim=1).cpu().tolist()
+
+        for i in range(len(preds)):
+            print(f"Question: {batch['question'][i]}")
+            print(f"Ground Truth: {batch['answer'][i]}")
+            print(f"Prediction: {idx_to_answer.get(preds[i], 'UNK')}")
+            print("-" * 50)
+
+            collected += 1
+            if collected >= num_examples:
+                return
+
 
 # MAIN
 def main():
@@ -207,7 +262,9 @@ def main():
     # --- ANSWER VOCAB ---
     answers = sorted({sample["answer"] for sample in train_data.samples})
     answer_to_idx = {ans: i for i, ans in enumerate(answers)}
-    # idx_to_answer = {i: ans for ans, i in answer_to_idx.items()}
+    answer_to_idx["UNK"] = len(answer_to_idx)
+
+    idx_to_answer = {v: k for k, v in answer_to_idx.items()}
 
     # --- MODELS ---
     model = VisualBertForQuestionAnswering.from_pretrained(
@@ -221,6 +278,8 @@ def main():
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001)
 
+    criterion = nn.CrossEntropyLoss()
+
     # --- TRAINING ---
     epochs = 3
 
@@ -230,14 +289,16 @@ def main():
             visual_features_extractor=visual_extractor,
             loader=train_loader,
             optimizer=optimizer,
+            criterion=criterion,
             answer_to_idx=answer_to_idx,
             device=device
         )
 
-        validation_loss, validation_accuracy = evaluate(
+        validation_loss, validation_accuracy = evaluate_excluding_unk(
             model=model,
             visual_features_extractor=visual_extractor,
             loader=validation_loader,
+            criterion=criterion,
             answer_to_idx=answer_to_idx,
             device=device
         )
@@ -247,21 +308,32 @@ def main():
             f"Training Loss: {train_loss:.4f} | "
             f"Training Accuracy: {train_accuracy:.2f}% | "
             f"Validation Loss: {validation_loss:.4f} | "
-            f"Validation Accuracy: {validation_accuracy:.2f}%"
+            f"Validation Accuracy (Excluding UNK): {validation_accuracy:.2f}%"
         )
     
     # --- TESTING ---
-    test_loss, test_accuracy = evaluate(
+    test_loss, test_accuracy = evaluate_excluding_unk(
         model=model,
         visual_features_extractor=visual_extractor,
         loader=test_loader,
+        criterion=criterion,
         answer_to_idx=answer_to_idx,
         device=device
     )
 
     print(f"Test Loss: {test_loss:.4f} | Test Accuracy: {test_accuracy:.2f}%")
 
-
+    
+    # --- OPEN-ENDED EVAL ---
+    evaluate_open_ended(
+        model=model,
+        visual_features_extractor=visual_extractor,
+        loader=test_loader,
+        idx_to_answer=idx_to_answer,
+        device=device,
+        num_examples=5
+    )
+    
 
 
 if __name__ == "__main__":
@@ -270,30 +342,3 @@ if __name__ == "__main__":
 
     
 
-"""
-Example: 
-
-response = requests.get("https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/pipeline-cat-chonk.jpeg")
-image = Image.open(BytesIO(response.content))
-
-
-visual_embeds = get_visual_embeddings_simple(image, visual_feature_extractor, device)
-    
-inputs = tokenizer("What is shown in this image?", return_tensors="pt")
-    
-visual_token_type_ids = torch.ones(visual_embeds.shape[:-1], dtype=torch.long)
-visual_attention_mask = torch.ones(visual_embeds.shape[:-1], dtype=torch.float)
-    
-inputs.update({
-    "visual_embeds": visual_embeds,
-    "visual_token_type_ids": visual_token_type_ids,
-    "visual_attention_mask": visual_attention_mask,
-})
-    
-with torch.no_grad():
-    outputs = model(**inputs)
-    logits = outputs.logits
-    predicted_answer_idx = logits.argmax(-1).item()
-
-print(f"Predicted answer: {predicted_answer_idx}")
-"""
