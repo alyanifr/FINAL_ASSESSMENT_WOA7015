@@ -72,12 +72,11 @@ def train_for_one_epoch(model, visual_features_extractor, loader, optimizer, ans
             attention_mask=attention_mask,
             visual_embeds=visual_embeds,
             visual_attention_mask=visual_attention_mask,
-            visual_token_type_ids=visual_token_type_ids,
-            labels=labels
+            visual_token_type_ids=visual_token_type_ids
         )
 
-        loss = outputs.loss
         logits = outputs.logits
+        loss = nn.CrossEntropyLoss()(logits, labels)
 
         optimizer.zero_grad()
         loss.backward()
@@ -137,12 +136,8 @@ def evaluate(model, visual_features_extractor, loader, answer_to_idx, device):
             visual_token_type_ids=visual_token_type_ids,
         )
 
-        loss = outputs.loss
         logits = outputs.logits
-
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
+        loss = nn.CrossEntropyLoss()(logits, labels)
 
         total_loss += loss.item()
 
