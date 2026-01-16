@@ -56,7 +56,7 @@ class CNNLSTMSlakeDataset(Dataset):
         return image, question, answer
     
 # Dataset class for ViT + BERT model
-class ViTBERTSlakeDataset(Dataset):
+class VisualBERTSlakeDataset(Dataset):
 
     def __init__(self, annotations_path, image_root, tokenizer, transform=None, max_length=32):
         self.samples = json.load(open(annotations_path, "r"))
@@ -90,4 +90,9 @@ class ViTBERTSlakeDataset(Dataset):
         input_ids = encode["input_ids"].squeeze(0)
         attention_mask = encode["attention_mask"].squeeze(0)
 
-        return image, input_ids, attention_mask, sample["answer"]
+        return {
+            "image": image,
+            "input_ids": encode["input_ids"].squeeze(0),
+            "attention_mask": encode["attention_mask"].squeeze(0),
+            "answer": sample["answer"]
+        }
