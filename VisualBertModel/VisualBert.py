@@ -218,13 +218,20 @@ def plot_training_curves(train_losses, validation_losses, train_accuracies, vali
     plt.close()
 
 @torch.no_grad()
-def evaluate_open_ended(model, visual_features_extractor, loader, idx_to_answer, device, num_examples=10):
+def evaluate_open_ended(
+    model,
+    visual_features_extractor,
+    loader,
+    idx_to_answer,
+    device,
+    num_examples=10
+):
     model.eval()
     visual_sequence_length = 10
 
     collected = 0
 
-    print("\n===== GROUND TRUTH EVALUATION =====\n")
+    print("\n===== FAILURE-ONLY QUALITATIVE EVALUATION =====\n")
 
     for batch in loader:
         images = batch["image"].to(device)
@@ -234,8 +241,11 @@ def evaluate_open_ended(model, visual_features_extractor, loader, idx_to_answer,
         # VISUAL EMBEDDINGS
         visual_features = visual_features_extractor(images)
         visual_embeds = visual_features.unsqueeze(1).expand(
-            visual_features.size(0), visual_sequence_length, visual_features.size(1)
+            visual_features.size(0),
+            visual_sequence_length,
+            visual_features.size(1),
         )
+
         visual_attention_mask = torch.ones(
             visual_embeds.shape[:-1], dtype=torch.float, device=device
         )
@@ -248,16 +258,23 @@ def evaluate_open_ended(model, visual_features_extractor, loader, idx_to_answer,
             attention_mask=attention_mask,
             visual_embeds=visual_embeds,
             visual_attention_mask=visual_attention_mask,
-            visual_token_type_ids=visual_token_type_ids
+            visual_token_type_ids=visual_token_type_ids,
         )
 
         preds = outputs.logits.argmax(dim=1).cpu().tolist()
 
-        for i in range(len(preds)):
-            print(f"Question: {batch['question'][i]}")
-            print(f"Ground Truth: {batch['answer'][i]}")
-            print(f"Prediction: {idx_to_answer.get(preds[i], 'UNK')}")
-            print("-" * 50)
+        for i, pred_idx in enumerate(preds):
+            pred_answer = idx_to_answer.get(pred_idx, "UNK")
+            gt_answer = batch["answer"][i]
+
+            # ❗ failure-only
+            if pred_answer == gt_answer:
+                continue
+
+            print(f"Q: {batch['question'][i]}")
+            print(f"Ground Truth: {gt_answer}")
+            print(f"Prediction: {pred_answer}")
+            print("-" * 60)
 
             collected += 1
             if collected >= num_examples:
