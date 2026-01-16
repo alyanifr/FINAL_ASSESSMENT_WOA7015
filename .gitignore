@@ -1,2 +1,6 @@
 outputs/checkpoints/
 *.pt
+
+# Large files
+outputs/checkpoints/
+outputs/models/
