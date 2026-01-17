@@ -186,7 +186,7 @@ def evaluate_excluding_unk(model, visual_features_extractor, loader, criterion, 
         eval_error += (preds[mask] != labels[mask]).sum().item()
         total_eval += mask.sum().item()
 
-    return  total_eval / len(loader), 100 * (1 - eval_error / total_eval)
+    return  total_loss / len(loader), 100 * (1 - eval_error / total_eval)
 
 # TRAINING CURVES
 def plot_training_curves(train_losses, validation_losses, train_accuracies, validation_accuracies, save_dir="outputs/plots"):
@@ -195,8 +195,8 @@ def plot_training_curves(train_losses, validation_losses, train_accuracies, vali
 
     # LOSS PLOT
     plt.figure()
-    plt.plot(epochs, train_losses, label="Train Loss")
-    plt.plot(epochs, validation_losses, label="Validation Loss")
+    plt.plot(epochs, train_losses, label="Train Loss", marker='o', color='blue')
+    plt.plot(epochs, validation_losses, label="Validation Loss", marker='s', color='red')
     plt.xlabel("Epoch")
     plt.ylabel("Loss")
     plt.title("Training vs Validation Loss")
@@ -205,10 +205,10 @@ def plot_training_curves(train_losses, validation_losses, train_accuracies, vali
     plt.savefig(os.path.join(save_dir, "loss_curve.png"), dpi=300)
     plt.close()
 
-    # Accuracy
+    # ACCURACY
     plt.figure()
-    plt.plot(epochs, train_accuracies, label="Train Acc")
-    plt.plot(epochs, validation_accuracies, label="Validation Acc")
+    plt.plot(epochs, train_accuracies, label="Train Acc", marker='o', color='blue')
+    plt.plot(epochs, validation_accuracies, label="Validation Acc", marker='s', color='red')
     plt.xlabel("Epoch")
     plt.ylabel("Accuracy (%)")
     plt.title("Training vs Validation Accuracy")
@@ -322,7 +322,7 @@ def evaluate_failures_with_images(model, visual_features_extractor, loader, idx_
             pred_ans = idx_to_answer[pred]
 
             if pred_ans != ground_truth:
-                question = batch["question"][i] if "quqestion" in batch else tokenizer.decode(input_ids[i], skip_special_tokens=True)
+                question = batch["question"][i] if "question" in batch else tokenizer.decode(input_ids[i], skip_special_tokens=True)
                 img = images[i].cpu().permute(1, 2, 0)
                 img = (img - img.min()) / (img.max() - img.min())
 
@@ -332,7 +332,7 @@ def evaluate_failures_with_images(model, visual_features_extractor, loader, idx_
                 plt.title(f"Question: {question}\nGround Truth: {ground_truth}\nPred: {pred_ans}", fontsize=8)
                 filename = f"failure_{failures+1}.png"
                 plt.savefig(os.path.join(save_dirs, filename), dpi=300)
-                plt.close
+                plt.close()
 
                 print(f"[FAILURE {failures+1}] Question: {question} | Ground Truth: {ground_truth} | Pred: {pred_ans}")
                 failures += 1
