@@ -161,7 +161,7 @@ def evaluate_excluding_unk(model, extractor, loader, criterion, answer_to_idx, d
         total += mask.sum().item()
         batches += 1
 
-    return total_loss / max(1, batches), 100 * (1 - errors / total)
+    return total_loss / len(loader), 100 * (1 - errors / total)
 
 
 # -------------------------------
@@ -250,11 +250,13 @@ def main():
     criterion = nn.CrossEntropyLoss()
     stopper = EarlyStopping(patience=5)
 
-    for epoch in range(10):
+    epochs = 10
+
+    for epoch in range(epochs):
         tr_loss, tr_acc = train_for_one_epoch(model, extractor, train_loader, optimizer, criterion, answer_to_idx, device)
         va_loss, va_acc = evaluate_excluding_unk(model, extractor, val_loader, criterion, answer_to_idx, device)
 
-        print(f"Epoch {epoch+1}: Train {tr_acc:.2f}% | Val {va_acc:.2f}%")
+        print(f"Epoch {epoch+1}/{epochs} | Train Loss: {tr_loss:.4f} | Train Accuracy: {tr_acc:.2f}% | Validation Loss: {va_loss:.4f} | Val {va_acc:.2f}%")
 
         stopper(va_loss, model)
         if stopper.early_stop:
@@ -263,7 +265,7 @@ def main():
     model.load_state_dict(torch.load("outputs/checkpoints/visualbert_best.pt", map_location=device))
 
     test_loss, test_acc = evaluate_excluding_unk(model, extractor, test_loader, criterion, answer_to_idx, device)
-    print(f"TEST ACC: {test_acc:.2f}%")
+    print(f"TEST_LOSS: {test_loss:.4f} | TEST ACC: {test_acc:.2f}%")
 
     evaluate_open_ended(model, extractor, test_loader, idx_to_answer, device)
 
